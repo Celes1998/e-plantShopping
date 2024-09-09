@@ -4,6 +4,8 @@ import ProductList from './ProductList';
 import './App.css';
 import AboutUs from './AboutUs';
 
+import store from './store'; // Import the configured store
+
 function App() {
   
   const [showProductList, setShowProductList] = useState(false);
